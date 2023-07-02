@@ -1,0 +1,150 @@
+header {
+    width: 1900px;
+    background-image: url("Images/Me.jpg");
+    height: 100vh;
+    min-height: 400px;
+    padding-top: 40%;
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover ;
+    text-align: center;
+    justify-content: center;
+
+}
+
+
+.container {
+    margin-top: -20%;
+}
+
+span {
+    display: flex;
+    margin-bottom: 12px;
+    margin-left: -140px;
+}
+
+.container a {
+    text-decoration: none;
+}
+
+
+button {
+    width: 20%;
+    padding: 10px 35px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: rgb(253, 251, 251);
+    outline:invert;
+    transition: .6s ease;
+    flex-direction: row; 
+    padding-top: 11px;
+    padding-bottom: 11px;   
+}
+
+
+
+button:hover {
+    
+    background-color: white;
+    color: black;
+    box-shadow: 0 0 5px white, 0 0 10px white, 0 0 15px white;
+    font-weight: bold;
+}
+
+
+
+
+@media (min-width: 676px) and (max-width: 1280px) {
+
+    body{ 
+        width: 820px;
+    }
+
+    header{
+        background-image: url("Images/Me.jpg");
+        width: 820px;
+        height: 1200px;
+    }
+
+
+    .container {
+        margin-top: -73%;
+   
+    }
+    
+    span {
+        display: flex;
+        margin-bottom: 12px;
+        margin-left: 250px;
+        
+    }
+
+    button {
+        width: 52%;
+        font-size: 10px;
+   
+    }
+
+    button:hover {
+    
+        background-color: white;
+        color: black;
+        box-shadow: 0 0 5px white, 0 0 10px white, 0 0 15px white;
+        font-weight: bold;
+    }
+}
+
+
+
+
+@media (max-width: 676px) {
+
+    body{ 
+        width: 430px;
+        height: 130vh;
+    }
+
+    header{
+        background-image: url("Images/Mecutted.jpg");
+        width: 430px;
+        height: 130vh;
+        min-height: 400px;
+        padding-top: 40%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-size: cover ;
+        text-align: center;
+        justify-content: center;
+        
+    }
+
+    .container {
+        margin-top: -91%;
+   
+    }
+    
+    span {
+        display: flex;
+        margin-bottom: 12px;
+        margin-left: 60px;
+        
+    }
+
+    button {
+        width: 80%;
+        font-size: 10px;
+   
+    }
+
+    button:hover {
+        background-color: white;
+        color: black;
+        box-shadow: 0 0 5px white, 0 0 10px white, 0 0 15px white;
+        font-weight: bold;
+    }
+}
+
+    
+
+
