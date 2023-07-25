@@ -63,7 +63,7 @@ button:hover {
 
     header{
         background-image: url("Images/Me.jpg");
-        width: 820px;
+        width: 100%;
         height: 1200px;
     }
 
@@ -107,7 +107,7 @@ button:hover {
 
     header{
         background-image: url("Images/Mecutted.jpg");
-        width: 430px;
+        width: 100%;
         height: 130vh;
         min-height: 400px;
         padding-top: 40%;
